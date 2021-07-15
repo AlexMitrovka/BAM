@@ -1,0 +1,287 @@
+.light-sub-text,
+span.small-text {
+  color: #a3a3a3;
+  font-size: 16px;
+  font-weight: 100;
+}
+.service-item-box {
+  background-color: #4cb050;
+  color: #fff;
+  padding: 20px 20px 15px;
+  cursor: pointer;
+}
+.service-item-box h3 {
+  color: #fff;
+  margin-top: 12px;
+  margin-bottom: 10px;
+}
+.service-item-box .glyphicon {
+  color: #fff;
+  font-size: 30px;
+  -moz-transition: all 0.6s ease;
+  -webkit-transition: all 0.6s ease;
+  -o-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+}
+.service-item-box svg {
+  fill: orange;
+  width: 35%;
+}
+.packages-list-wrap {
+  border: 1px solid #ccc;
+  padding: 20px 12px;
+  display: none;
+}
+.glyphicon-chevron-down.rotate {
+  transform: rotate(180deg);
+}
+.packages-list-wrap .button-green {
+  font-size: 20px;
+  font-weight: 100;
+  padding: 10px 16px;
+}
+.packages-list-wrap hr {
+  border-top: 1px solid #ccc;
+}
+.packages-list-wrap span {
+  font-size: 16px;
+  font-style: italic;
+  display: block;
+  line-height: 1.6;
+  margin-top: 5px;
+}
+.progress-meter {
+    margin: 50px auto 60px;
+    padding: 25px;
+    max-width: 900px;
+  }
+  .progress-meter {
+    counter-reset: point;
+  }
+  .progress-point span {
+    color: #a7a9ac;
+    font-size: 24px;
+    width: 100%;
+    position: absolute;
+    top: 8px;
+    left: 0;
+    font-weight: 700;
+  }
+  .progress-point span a {
+    color: #a7a9ac;
+  }
+  .progress-point span.bottom-label {
+    color: #c8c9cb;
+    font-size: 20px;
+    width: 100%;
+    position: absolute;
+    top: 55px;
+    left: 0;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  .progress-point.done {
+    pointer-events: auto;
+  }
+  .progress-meter .progress-point:before {
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    -moz-box-shadow: 0 0 0 2px #fff;
+    -webkit-box-shadow: 0 0 0 2px #fff;
+    box-shadow: 0 0 0 2px #fff;
+    content: "";
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto 12px;
+    border: 7px solid #e7e7e8;
+    text-align: center;
+    background-color: #fff;
+    color: #fff;
+  }
+  .progress-meter .track {
+    position: relative;
+    height: 4px;
+    background: #e7e7e8;
+    width: 95%;
+  }
+  .progress-meter .progress {
+    -moz-transition: width 1s;
+    -o-transition: width 1s;
+    -webkit-transition: width 1s;
+    transition: width 1s;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 4px;
+    background: #e7e7e8;
+  }
+  .progress-meter .progress-points {
+    position: relative;
+    margin: -25px 0 0;
+    padding: 0;
+    list-style: none;
+    pointer-events: none;
+    width: 127%;
+  }
+  .progress-meter .progress-points .progress-point:nth-child(1) {
+    left: 0;
+  }
+  .progress-meter .progress-points .progress-point:nth-child(2) {
+    left: 25%;
+  }
+  .progress-meter .progress-points .progress-point:nth-child(3) {
+    left: 50%;
+  }
+  .progress-meter .progress-points .progress-point:nth-child(4) {
+    left: 75%;
+  }
+  .progress-meter .progress-points .progress-point:nth-child(5) {
+    left: 100%;
+  }
+  .progress-meter .progress-point {
+    -moz-transition: color 1s;
+    -o-transition: color 1s;
+    -webkit-transition: color 1s;
+    transition: color 1s;
+    position: absolute;
+    display: block;
+    width: 100px;
+    margin-left: -50px;
+    text-align: center;
+    cursor: pointer;
+    color: #999;
+  }
+  .progress-meter .progress-point.completed {
+    color: #4cb050;
+    pointer-events: auto;
+  }
+  .progress-meter .progress-point.active {
+    color: #4cb050;
+    pointer-events: none;
+  }
+  .progress-meter .progress-point.completed:before {
+    border-color: #4cb050;
+    background-color: #fff;
+  }
+  .progress-meter .progress-point.active:before {
+    border-color: #4cb050;
+  }
+  .progress-meter .progress-point .label:before {
+    counter-increment: point;
+    content: counter(point) ". ";
+  }
+  .green-sepeator {
+    margin: 25px auto 30px;
+    border-top: 2px solid #4cb050;
+  }
+  .pckg-box-style {
+    padding: 10px;
+  }
+  @media (max-width: 640px) {
+    .row.row-2 {
+      margin-top: 6px;
+    }
+    .row.row-2 .pckg-box-style {
+      padding: 2px 10px;
+    }
+    .progress-point span.bottom-label {
+      display: none;
+    }
+    .xs-mt-2 {
+      margin-top: 10px;
+    }
+    .green-button-style {
+      width: 80%;
+      margin: 0 auto;
+      display: block;
+    }
+    .select-color-wrap img {
+      width: 100%;
+      height: 45px;
+    }
+    .cb-detail .font-size-medium {
+      margin-top: 25px;
+    }
+    .packages-list-wrap .button-green {
+      margin-left: 15px;
+    }
+    .service-item-box .glyphicon-chevron-down {
+      position: absolute;
+      right: 35px;
+      top: 34px;
+    }
+    .service-item-box h3 {
+      font-size: 24px;
+      text-align: left;
+    }
+    .cb-login-detail ul.nav-tabs li {
+      width: 50%;
+      text-align: center;
+    }
+    .cb-login-detail ul.nav-tabs li a {
+      margin: 0;
+    }
+    .or-class {
+      text-align: center;
+      width: 100%;
+      float: left;
+      margin: 14px 0;
+    }
+    .green-button-style {
+      margin-top: 30px;
+      width: 100%;
+      float: left;
+    }
+  }
+  .service-item-box .glyphicon {
+    color: #fff;
+    font-size: 30px;
+    -moz-transition: all 0.6s ease;
+    -webkit-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+    transition: all 0.6s ease;
+  }
+  .service-item-box svg {
+    fill: orange;
+    width: 35%;
+  }
+  .packages-list-wrap {
+    border: 1px solid #ccc;
+    padding: 20px 12px;
+    display: none;
+  }
+  .glyphicon-chevron-down.rotate {
+    transform: rotate(180deg);
+  }
+  .packages-list-wrap .button-green {
+    font-size: 20px;
+    font-weight: 100;
+    padding: 10px 16px;
+  }
+  .packages-list-wrap hr {
+    border-top: 1px solid #ccc;
+  }
+  .packages-list-wrap span {
+    font-size: 16px;
+    font-style: italic;
+    display: block;
+    line-height: 1.6;
+    margin-top: 5px;
+  }
+  .fb-btn {
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    border: none;
+    background: #3a5999;
+    padding: 8px 30px;
+  }
